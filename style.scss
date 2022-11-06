@@ -1,5 +1,4 @@
 body {
-  background-color: antiquewhite;
   margin: 0 auto;
   height: 100vh;
   font-family: "Lexend Exa", sans-serif;
@@ -95,7 +94,42 @@ body {
   }
 
   .footer {
-    // background-color: #000000;
-    height: 100px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    flex-direction: column;
+    color: #ffffff;
+    background-color: #212120;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+
+    .links {
+      display: flex;
+      justify-content: center;
+      gap: 5px;
+
+      .link {
+        width: 35px;
+        height: 35px;
+        background-repeat: no-repeat;
+      }
+
+      .github_link {
+        background-image: url("./img/svg/github.svg");
+      }
+
+      .linkedin_link {
+        background-image: url("./img/svg/linkedin.svg");
+      }
+
+      .instagram_link {
+        background-image: url("./img/svg/instagram.svg");
+      }
+    }
   }
 }
