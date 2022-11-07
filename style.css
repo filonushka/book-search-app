@@ -1,9 +1,14 @@
+@charset "UTF-8";
 body {
   margin: 0 auto;
   height: 100vh;
   font-family: "Lexend Exa", sans-serif;
   font-weight: 400;
   font-size: 16px;
+}
+body h2 {
+  font-size: 32px;
+  margin: 0 auto;
 }
 body .header {
   display: flex;
@@ -15,43 +20,39 @@ body .header {
   height: 150px;
   justify-content: space-around;
 }
+body .header .logo {
+  text-decoration: none;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Grandstander", cursive;
+  font-size: 30px;
+  list-style: none;
+  text-align: left;
+  padding: 0;
+  gap: 5px;
+}
+body .header .logo ul {
+  list-style: none;
+  display: inline-block;
+}
+body .header .logo:hover {
+  opacity: 0.6;
+}
 body .header nav ul {
   list-style: none;
   display: flex;
-  gap: 10px;
+  text-transform: uppercase;
+  gap: 30px;
+  font-size: 20px;
 }
-body .header nav ul li:hover {
-  opacity: 0.6;
-}
-body .header a {
+body .header nav ul li a {
   text-decoration: none;
   color: #ffffff;
 }
-body .header a :hover {
+body .header nav ul li a:hover {
   opacity: 0.6;
-}
-body .header a .logo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-family: "Grandstander", cursive;
-  font-size: 18px;
-  list-style: none;
-  text-align: center;
-  padding: 0;
-  gap: 3px;
-}
-body .header a .logo li {
-  display: inline-block;
-}
-body .header a .logo :last-child {
-  font-size: 14px;
-}
-body .header a .logo .logo-image {
-  width: 65px;
-  height: 65px;
-  background-image: url("./logo.svg");
 }
 body .header .search-bar {
   color: #ffffff;
@@ -76,10 +77,57 @@ body .header .search-bar .search-button {
   border-top-left-radius: 0px;
   border-bottom-left-radius: 0px;
   background-image: url("./img/svg/search-library.svg");
+  background-repeat: no-repeat;
 }
 body .main {
   background-color: #ffffff;
+}
+body .main .container {
+  width: 1170px;
+  margin: 0 auto;
+}
+body .main .quotes__section .quotes-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #212120;
+  color: #ffffff;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 50px;
+}
+body .main .quotes__section .quotes-content h2 {
+  padding-bottom: 25px;
+}
+body .main .quotes__section .quotes-content .quote-image {
+  background-image: url("https://images.unsplash.com/photo-1487001175664-86de872e3cd6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=672&q=80");
+  background-repeat: no-repeat;
   height: 500px;
+  width: 40%;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+body .main .quotes__section .quotes-content .quote-image .quote {
+  font-size: 20px;
+  margin: 30px 0px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+  align-items: center;
+}
+body .main .quotes__section .quotes-content .quote-image .quote::before {
+  content: "“";
+  color: #fff;
+  font-size: 150px;
+}
+body .main .quotes__section .quotes-content .quote-image .quote-author {
+  font-size: 20px;
 }
 body .footer {
   margin-top: 30px;
