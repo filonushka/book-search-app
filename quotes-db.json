@@ -1,44 +1,62 @@
 [{
-       "quote":"'Classic' – a book which people praise and don’t read.","author":"Mark Twain", "url":""},
+       "quote":"'Classic' – a book which people praise and don’t read.","author":"Mark Twain", "url":"https://images.unsplash.com/photo-1585521607120-182732851afe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"},
       {
-       "quote":"Sleep is good, he said, and books are better.","author":"George R.R. Martin", "url":""},
+       "quote":"Sleep is good, he said, and books are better.","author":"George R.R. Martin", "url":"https://images.unsplash.com/photo-1507191515990-7f6f17d39c76?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"},
        {
-       "quote":"Books are the quietest and most constant of friends; they are the most accessible and wisest of counselors, and the most patient of teachers. ","author":"Charles W. Eliot", "url":""}, 
+       "quote":"Books are the quietest and most constant of friends; they are the most accessible and wisest of counselors, and the most patient of teachers. ","author":"Charles W. Eliot", "url":"https://images.unsplash.com/photo-1519791883288-dc8bd696e667?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"}, 
        {
-       "quote":"Many people, myself among them, feel better at the mere sight of a book.","author":"Jane Smiley, Thirteen Ways of Looking at a Novel", "url":""}, 
+       "quote":"Many people, myself among them, feel better at the mere sight of a book.","author":"Jane Smiley, Thirteen Ways of Looking at a Novel", "url":"https://images.unsplash.com/photo-1532012197267-da84d127e765?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"}, 
        {
-       "quote":"The library is inhabited by spirits that come out of the pages at night.","author":"Isabel Allende", "url":""}, 
+       "quote":"The library is inhabited by spirits that come out of the pages at night.","author":"Isabel Allende", "url":"https://images.unsplash.com/photo-1505664194779-8beaceb93744?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"}, 
        {
-       "quote":"Take a good book to bed with you—books do not snore.","author":"Thea Dorn", "url":""}, 
+       "quote":"Take a good book to bed with you — books do not snore.","author":"Thea Dorn", "url":"https://images.unsplash.com/photo-1533327325824-76bc4e62d560?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"}, 
        {
-       "quote":"If you don’t like to read, you haven’t found the right book.","author":"J.K. Rowling", "url":""}, 
+       "quote":"If you don’t like to read, you haven’t found the right book.","author":"J.K. Rowling", "url":"https://images.unsplash.com/photo-1468174482686-1047396f13b3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"}, 
        {
-       "quote":"One glance at a book and you hear the voice of another person, perhaps someone dead for 1,000 years. To read is to voyage through time.","author":"Carl Sagan", "url":""}, 
+       "quote":"One glance at a book and you hear the voice of another person, perhaps someone dead for 1,000 years. To read is to voyage through time.","author":"Carl Sagan", "url":"https://images.unsplash.com/photo-1521776943084-9a3512bd6311?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"}, 
        {
-       "quote":"When I have a little money, I buy books; and if I have any left, I buy food and clothes.","author":"Erasmus", "url":""}, 
+       "quote":"When I have a little money, I buy books; and if I have any left, I buy food and clothes.","author":"Erasmus", "url":"https://images.unsplash.com/photo-1553060146-71667aa3f223?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"}, 
        {
-       "quote":"Fill your house with stacks of books, in all the crannies and all the nooks.","author":"Dr. Seuss", "url":""}, 
+       "quote":"Fill your house with stacks of books, in all the crannies and all the nooks.","author":"Dr. Seuss", "url":"https://images.unsplash.com/photo-1529589585661-8fb5cdc75c48?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1116&q=80"}, 
        {
-       "quote":"That’s the thing about books. They let you travel without moving your feet.","author":"Jhumpa Lahiri", "url":""}, 
+       "quote":"That’s the thing about books. They let you travel without moving your feet.","author":"Jhumpa Lahiri", "url":"https://images.unsplash.com/photo-1512331455279-c8ae8178f586?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80"}, 
        {
        "quote":"Outside of a dog, a book is a man’s best friend. Inside of a dog, it’s too dark to read.","author":" Groucho Marx", "url":"https://images.unsplash.com/photo-1487001175664-86de872e3cd6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=672&q=80"}, 
        {
-       "quote":"","author":"", "url":""}, 
+       "quote":"A book is a version of the world. If you do not like it, ignore it; or offer your own version in return.","author":"Salman Rushdie", "url":"https://images.unsplash.com/photo-1515666991427-9b0f67becfa1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=689&q=80"}, 
        {
-       "quote":"","author":"", "url":""}, 
+       "quote":"I love the smell of book ink in the morning.","author":"Umberto Eco", "url":"https://images.unsplash.com/photo-1520179432903-03d08e6ef07a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"}, 
        {
-       "quote":"","author":"", "url":""}, 
+       "quote":"Rainy days should be spent at home with a cup of tea and a good book.","author":"Bill Patterson", "url":"https://images.unsplash.com/photo-1506962240359-bd03fbba0e3d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1165&q=80"}, 
        {
-       "quote":"","author":"", "url":""}, 
+       "quote":"It is is better to know one book intimately than a hundred superficially.","author":"Donna Tartt, The Secret History", "url":"https://images.unsplash.com/photo-1523689094115-65c863cf262d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"}, 
        {
-       "quote":"","author":"", "url":""}, 
+       "quote":"Fairy tales are more than true: not because they tell us that dragons exist, but because they tell us that dragons can be beaten.","author":"Neil Gaiman", "url":"https://images.unsplash.com/photo-1512903516382-12773959d96c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=700&q=80"}, 
        {
-       "quote":"","author":"", "url":""}, 
+       "quote":"A book is a garden, an orchard, a storehouse, a party, a company by the way, a counselor, a multitude of counselors.","author":"Charles Baudelaire", "url":"https://images.unsplash.com/photo-1519682577862-22b62b24e493?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"}, 
        {
-       "quote":"","author":"", "url":""}, 
+       "quote":"There is more treasure in books than in all the pirate’s loot on Treasure Island.","author":"Walt Disney", "url":"https://images.unsplash.com/photo-1504598318550-17eba1008a68?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=686&q=80"}, 
        {
-       "quote":"","author":"", "url":""}, 
+       "quote":"Books are a uniquely portable magic.","author":"Stephen King", "url":"https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80"}, 
        {
-       "quote":"","author":""}
+       "quote":"A half-read book is a half-finished love affair.","author":"David Mitchell", "url":"https://images.unsplash.com/photo-1602399481667-07536109851e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"}, 
+       {
+       "quote":"I do believe something very magical can happen when you read a book.","author":"J.K. Rowling", "url":"https://images.unsplash.com/photo-1495640452828-3df6795cf69b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"}, 
+       {
+       "quote":"Books are the plane, and the train, and the road. They are the destination, and the journey. They are home.","author":"Anna Quindlen", "url":"https://images.unsplash.com/photo-1578511161102-485cc0775c6b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"}, 
+       {
+       "quote":"I guess there are never enough books.","author":"John Steinbeck", "url":"https://images.unsplash.com/photo-1648960094467-c7b7e0d7705d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"}, 
+       {
+       "quote":"Never trust anyone who has not brought a book with them.","author":"Lemony Snicket", "url":"https://images.unsplash.com/photo-1519682577862-22b62b24e493?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"}, 
+       {
+       "quote":"I have always imagined paradise will be a kind of library.","author":"Jorge Luis Borges", "url":"https://images.unsplash.com/photo-1572091574819-ea8bb5394b1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=659&q=80"}, 
+       {
+       "quote":"Reading is to the mind what exercise is to the body.","author":"Joseph Addison", "url":"https://images.unsplash.com/photo-1519682577862-22b62b24e493?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"}, 
+       {
+       "quote":"My personal hobbies are reading, listening to music, and silence.","author":"Edith Sitwell", "url":"https://images.unsplash.com/photo-1495175448924-1d9a30c90a42?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"}, 
+       {
+       "quote":"Reading should not be presented to children as a chore, a duty. It should be offered as a gift.","author":"Kate DiCamillo", "url":"https://images.unsplash.com/photo-1590531189261-e023a9f89cb0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"}, 
+       {
+       "quote":"Books are mirrors: you only see in them what you already have inside you.","author":"Carlos Ruiz Zafón", "url":"https://images.unsplash.com/photo-1595455967759-5f1356993e53?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"}
 
 ]
