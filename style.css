@@ -216,6 +216,10 @@ body .main .container {
   width: 1170px;
   margin: 0 auto;
 }
+body .main .quotes__section {
+  padding: 25px 50px;
+  background-color: #212120;
+}
 body .main .quotes__section .quotes-content {
   display: flex;
   flex-direction: column;
@@ -224,10 +228,6 @@ body .main .quotes__section .quotes-content {
   text-align: center;
   background-color: #212120;
   color: #ffffff;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-  padding: 50px;
 }
 body .main .quotes__section .quotes-content h2 {
   padding-bottom: 25px;
@@ -270,6 +270,25 @@ body .main .quotes__section .quotes-content .quote-image .quote::before {
 body .main .quotes__section .quotes-content .quote-image .quote-author {
   z-index: 0;
   font-size: 22px;
+}
+body .main .quotes__section .slider-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-top: 25px;
+}
+body .main .quotes__section .slider-buttons .button-prev,
+body .main .quotes__section .slider-buttons .button-next {
+  background-color: transparent;
+  color: #ffffff;
+  padding: 5px;
+  border: 1px solid #ffffff;
+  border-radius: 100%;
+}
+body .main .quotes__section .slider-buttons .button-prev:hover,
+body .main .quotes__section .slider-buttons .button-next:hover {
+  opacity: 0.6;
 }
 body .footer {
   margin-top: 30px;
