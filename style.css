@@ -282,9 +282,12 @@ body .main .quotes__section .slider-buttons .button-prev,
 body .main .quotes__section .slider-buttons .button-next {
   background-color: transparent;
   color: #ffffff;
-  padding: 5px;
   border: 1px solid #ffffff;
-  border-radius: 100%;
+  padding: initial;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
 }
 body .main .quotes__section .slider-buttons .button-prev:hover,
 body .main .quotes__section .slider-buttons .button-next:hover {
