@@ -339,6 +339,34 @@ body {
         }
       }
     }
+
+    .subscription__section {
+      background-color: #212120;
+      color: #ffffff;
+
+      .subscription-content {
+        display: flex;
+        padding: 50px 0px;
+        .subscription-title {
+        }
+        .subscription-info {
+          .text {
+          }
+
+          .form {
+            .input {
+            }
+
+            .btn-subscribe {
+              .icon {
+              }
+              .icon-send {
+              }
+            }
+          }
+        }
+      }
+    }
   }
 
   .footer {
