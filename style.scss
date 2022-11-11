@@ -240,6 +240,22 @@ body {
       margin: 0 auto;
     }
 
+    .clients__section {
+      background-color: #212120;
+
+      .clients-list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        filter: brightness(2);
+
+        li:hover {
+          filter: brightness(0.5);
+        }
+      }
+    }
+
     .quotes__section {
       padding: 25px 50px;
       background-color: #212120;

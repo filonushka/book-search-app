@@ -216,6 +216,19 @@ body .main .container {
   width: 1170px;
   margin: 0 auto;
 }
+body .main .clients__section {
+  background-color: #212120;
+}
+body .main .clients__section .clients-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  filter: brightness(2);
+}
+body .main .clients__section .clients-list li:hover {
+  filter: brightness(0.5);
+}
 body .main .quotes__section {
   padding: 25px 50px;
   background-color: #212120;
