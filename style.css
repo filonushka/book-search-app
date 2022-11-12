@@ -314,6 +314,39 @@ body .main .subscription__section .subscription-content {
   display: flex;
   padding: 50px 0px;
 }
+body .main .subscription__section .subscription-content .subscription-title:after {
+  content: "";
+  display: block;
+  height: 1px;
+  background: #ffffff;
+  width: 50%;
+  margin-top: 15px;
+}
+body .main .subscription__section .subscription-content .subscription-info {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+body .main .subscription__section .subscription-content .subscription-info .text {
+  margin-bottom: 25px;
+}
+body .main .subscription__section .subscription-content .subscription-info .form .input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #3a3a3a;
+  color: #ffffff;
+  width: 300px;
+  height: 30px;
+}
+body .main .subscription__section .subscription-content .subscription-info .form .btn-subscribe {
+  background-color: #3a3a3a;
+  height: 30px;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 14pxx;
+  font-size: 14px;
+}
 body .footer {
   margin-top: 30px;
   display: flex;

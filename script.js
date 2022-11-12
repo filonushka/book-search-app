@@ -28,7 +28,6 @@ async function showQuote() {
   const quotes = `quotes-db.json`;
   const res = await fetch(quotes);
   const data = await res.json();
-  console.log(quoteIndex);
   quoteImage.style.backgroundImage = `url(${data[quoteIndex]["url"]})`;
   quote.textContent = data[quoteIndex]["quote"];
   quoteAuthor.textContent = data[quoteIndex]["author"];
