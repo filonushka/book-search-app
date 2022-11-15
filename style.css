@@ -103,7 +103,23 @@ body .header .login-button {
 body .header .login-button:hover {
   opacity: 0.6;
 }
-body .header .login-window {
+body .header .modal-overlay {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  z-index: 3;
+}
+body .header .modal-overlay .login-window {
   width: 900px;
   height: 700px;
   justify-content: center;
@@ -118,7 +134,7 @@ body .header .login-window {
   transform: translate(-50%, -50%);
   z-index: 2;
 }
-body .header .login-window .login-picture {
+body .header .modal-overlay .login-window .login-picture {
   width: 50%;
   height: 100%;
   background-image: url("./img/login-window-img.jpg");
@@ -132,7 +148,7 @@ body .header .login-window .login-picture {
   position: relative;
   padding: 40px;
 }
-body .header .login-window .login-picture::before {
+body .header .modal-overlay .login-window .login-picture::before {
   content: "";
   display: block;
   position: absolute;
@@ -140,7 +156,7 @@ body .header .login-window .login-picture::before {
   -webkit-backdrop-filter: contrast(0.7) brightness(0.7);
           backdrop-filter: contrast(0.7) brightness(0.7);
 }
-body .header .login-window .login-picture ul {
+body .header .modal-overlay .login-window .login-picture ul {
   text-decoration: none;
   color: #ffffff;
   display: flex;
@@ -160,7 +176,7 @@ body .header .login-window .login-picture ul {
   left: 50px;
   top: 50px;
 }
-body .header .login-window .login-info {
+body .header .modal-overlay .login-window .login-info {
   width: 50%;
   height: 100%;
   color: #212120;
@@ -172,7 +188,7 @@ body .header .login-window .login-info {
   gap: 10px;
   align-items: center;
 }
-body .header .login-window .login-info input {
+body .header .modal-overlay .login-window .login-info input {
   height: 25px;
   width: 80%;
   border: 1px solid #3a3a3a;
@@ -181,8 +197,8 @@ body .header .login-window .login-info input {
   padding-left: 15px;
   font-family: "Lexend Exa", sans-serif;
 }
-body .header .login-window .login-info .password-recovery,
-body .header .login-window .login-info .sign-button {
+body .header .modal-overlay .login-window .login-info .password-recovery,
+body .header .modal-overlay .login-window .login-info .sign-button {
   background-color: transparent;
   color: #212120;
   border: none;
@@ -190,11 +206,11 @@ body .header .login-window .login-info .sign-button {
   font-family: "Lexend Exa", sans-serif;
   font-weight: 500;
 }
-body .header .login-window .login-info .password-recovery:hover,
-body .header .login-window .login-info .sign-button:hover {
+body .header .modal-overlay .login-window .login-info .password-recovery:hover,
+body .header .modal-overlay .login-window .login-info .sign-button:hover {
   text-decoration: underline;
 }
-body .header .login-window .login-info .login-button {
+body .header .modal-overlay .login-window .login-info .login-button {
   height: 30px;
   width: 60%;
   border: 1px solid #3a3a3a;
@@ -205,7 +221,7 @@ body .header .login-window .login-info .login-button {
   font-family: "Lexend Exa", sans-serif;
   font-size: 16px;
 }
-body .header .login-window .login-info div {
+body .header .modal-overlay .login-window .login-info div {
   font-family: "Lexend Exa", sans-serif;
   font-size: 14px;
 }
@@ -344,7 +360,7 @@ body .main .subscription__section .subscription-content .subscription-info .form
   color: #ffffff;
   border: none;
   border-radius: 5px;
-  font-size: 14pxx;
+  font-size: 14px;
   font-size: 14px;
 }
 body .footer {

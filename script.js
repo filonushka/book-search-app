@@ -1,4 +1,6 @@
 const loginButton = document.querySelector(".login-button");
+const modal = document.querySelector(".modal");
+const modalOverlay = document.querySelector(".modal-overlay");
 const loginWindow = document.querySelector(".login-window");
 const sliderBtnPrev = document.querySelector(".button-prev");
 const sliderBtnNext = document.querySelector(".button-next");
@@ -6,7 +8,8 @@ const quoteImage = document.querySelector(".quote-image");
 const quote = document.querySelector(".quote");
 const quoteAuthor = document.querySelector(".quote-author");
 
-loginButton.addEventListener("click", login);
+loginButton.addEventListener("click", showLoginWindow);
+modalOverlay.addEventListener("click", closeLoginWindow);
 sliderBtnNext.addEventListener("click", showNextQuote);
 sliderBtnPrev.addEventListener("click", showPrevQuote);
 let quoteIndex = getRandomNum(0, 30);
@@ -17,9 +20,16 @@ function getRandomNum(min, max) {
   return Math.floor(Math.random() * (max - min)) + min;
 }
 
-function login() {
-  // loginWindow.classList.add("active");
-  loginWindow.hidden = false;
+function showLoginWindow() {
+  modalOverlay.hidden = false;
+  modalOverlay.style.opacity = 1;
+}
+
+function closeLoginWindow(e) {
+  if (e.target == modalOverlay) {
+    modalOverlay.hidden = true;
+    modalOverlay.style.opacity = 0;
+  }
 }
 
 showQuote();

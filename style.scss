@@ -118,116 +118,134 @@ body {
       }
     }
 
-    .login-window {
-      width: 900px;
-      height: 700px;
-      justify-content: center;
-      align-items: center;
+    .modal-overlay {
+      position: fixed;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.7);
       display: flex;
-      position: absolute;
-      border-radius: 20px;
-      overflow: hidden;
-      transition: 300ms;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      z-index: 2;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      width: 100vw;
+      opacity: 0;
+      transition: all 0.3s ease-in-out;
+      z-index: 3;
 
-      .login-picture {
-        width: 50%;
-        height: 100%;
-        background-image: url("./img/login-window-img.jpg");
-
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
+      .login-window {
+        width: 900px;
+        height: 700px;
+        justify-content: center;
         align-items: center;
-        position: relative;
-        padding: 40px;
+        display: flex;
+        position: absolute;
+        border-radius: 20px;
+        overflow: hidden;
+        transition: 300ms;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        // display: none;
+        z-index: 2;
 
-        &::before {
-          content: "";
-          display: block;
-          position: absolute;
-          inset: 0;
-          backdrop-filter: contrast(0.7) brightness(0.7);
-        }
+        .login-picture {
+          width: 50%;
+          height: 100%;
+          background-image: url("./img/login-window-img.jpg");
 
-        ul {
-          text-decoration: none;
-          color: #ffffff;
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
           display: flex;
           flex-direction: column;
-          justify-content: center;
-          font-family: "Grandstander", cursive;
-          font-size: 20px;
-          list-style: none;
-          text-align: left;
-          padding: 0;
-          gap: 5px;
-          list-style: none;
-          display: inline-block;
-          backdrop-filter: contrast(1) brightness(1);
-          position: absolute;
-          left: 50px;
-          top: 50px;
-        }
-      }
+          justify-content: space-evenly;
+          align-items: center;
+          position: relative;
+          padding: 40px;
 
-      .login-info {
-        width: 50%;
-        height: 100%;
-        color: #212120;
-        background-color: #fff;
-        display: flex;
-        flex-direction: column;
-        padding: 0 20px;
-        justify-content: center;
-        gap: 10px;
-        align-items: center;
+          &::before {
+            content: "";
+            display: block;
+            position: absolute;
+            inset: 0;
+            backdrop-filter: contrast(0.7) brightness(0.7);
+          }
 
-        input {
-          height: 25px;
-          width: 80%;
-          border: 1px solid #3a3a3a;
-          border-radius: 15px;
-          background-color: transparent;
-          padding-left: 15px;
-          font-family: "Lexend Exa", sans-serif;
-        }
-
-        .password-recovery,
-        .sign-button {
-          background-color: transparent;
-          color: #212120;
-          border: none;
-          font-size: 14px;
-          font-family: "Lexend Exa", sans-serif;
-          font-weight: 500;
-
-          &:hover {
-            text-decoration: underline;
+          ul {
+            text-decoration: none;
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            font-family: "Grandstander", cursive;
+            font-size: 20px;
+            list-style: none;
+            text-align: left;
+            padding: 0;
+            gap: 5px;
+            list-style: none;
+            display: inline-block;
+            backdrop-filter: contrast(1) brightness(1);
+            position: absolute;
+            left: 50px;
+            top: 50px;
           }
         }
 
-        .login-button {
-          height: 30px;
-          width: 60%;
-          border: 1px solid #3a3a3a;
-          border-radius: 20px;
-          background-color: #3a3a3a;
+        .login-info {
+          width: 50%;
+          height: 100%;
+          color: #212120;
+          background-color: #fff;
+          display: flex;
+          flex-direction: column;
+          padding: 0 20px;
+          justify-content: center;
+          gap: 10px;
           align-items: center;
-          color: #ffffff;
-          font-family: "Lexend Exa", sans-serif;
-          font-size: 16px;
-        }
 
-        div {
-          font-family: "Lexend Exa", sans-serif;
-          font-size: 14px;
+          input {
+            height: 25px;
+            width: 80%;
+            border: 1px solid #3a3a3a;
+            border-radius: 15px;
+            background-color: transparent;
+            padding-left: 15px;
+            font-family: "Lexend Exa", sans-serif;
+          }
+
+          .password-recovery,
+          .sign-button {
+            background-color: transparent;
+            color: #212120;
+            border: none;
+            font-size: 14px;
+            font-family: "Lexend Exa", sans-serif;
+            font-weight: 500;
+
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+
+          .login-button {
+            height: 30px;
+            width: 60%;
+            border: 1px solid #3a3a3a;
+            border-radius: 20px;
+            background-color: #3a3a3a;
+            align-items: center;
+            color: #ffffff;
+            font-family: "Lexend Exa", sans-serif;
+            font-size: 16px;
+          }
+
+          div {
+            font-family: "Lexend Exa", sans-serif;
+            font-size: 14px;
+          }
         }
       }
     }
@@ -382,7 +400,7 @@ body {
               color: #ffffff;
               border: none;
               border-radius: 5px;
-              font-size: 14pxx;
+              font-size: 14px;
               font-size: 14px;
 
               .icon {
