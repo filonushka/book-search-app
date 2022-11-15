@@ -1,6 +1,4 @@
-# book-search-app  
-
-App for searching books 
+# Book store
 
 References:  
 ![image](https://user-images.githubusercontent.com/70750996/191131282-e6b0b416-f0b6-4950-9f12-6d85716cc086.png)
