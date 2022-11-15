@@ -438,6 +438,9 @@ body {
         width: 35px;
         height: 35px;
         background-repeat: no-repeat;
+        &:hover {
+          opacity: 0.6;
+        }
       }
 
       .github_link {

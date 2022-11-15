@@ -388,6 +388,9 @@ body .footer .links .link {
   height: 35px;
   background-repeat: no-repeat;
 }
+body .footer .links .link:hover {
+  opacity: 0.6;
+}
 body .footer .links .github_link {
   background-image: url("./img/svg/github.svg");
   background-size: 100%;
