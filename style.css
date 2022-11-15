@@ -390,10 +390,16 @@ body .footer .links .link {
 }
 body .footer .links .github_link {
   background-image: url("./img/svg/github.svg");
+  background-size: 100%;
+  background-position: center;
 }
 body .footer .links .linkedin_link {
   background-image: url("./img/svg/linkedin.svg");
+  background-size: 100%;
+  background-position: center;
 }
 body .footer .links .instagram_link {
   background-image: url("./img/svg/instagram.svg");
+  background-size: 92%;
+  background-position: center;
 }/*# sourceMappingURL=style.css.map */

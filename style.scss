@@ -442,14 +442,20 @@ body {
 
       .github_link {
         background-image: url("./img/svg/github.svg");
+        background-size: 100%;
+        background-position: center;
       }
 
       .linkedin_link {
         background-image: url("./img/svg/linkedin.svg");
+        background-size: 100%;
+        background-position: center;
       }
 
       .instagram_link {
         background-image: url("./img/svg/instagram.svg");
+        background-size: 92%;
+        background-position: center;
       }
     }
   }
