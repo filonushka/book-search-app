@@ -14,6 +14,7 @@ body {
   font-family: "Lexend Exa", sans-serif;
   font-weight: 400;
   font-size: 16px;
+  background-color: #212120;
 }
 body h2 {
   font-size: 32px;
@@ -226,7 +227,7 @@ body .header .modal-overlay .login-window .login-info div {
   font-size: 14px;
 }
 body .main {
-  background-color: #ffffff;
+  background-color: #212120;
 }
 body .main .container {
   width: 1170px;
@@ -237,7 +238,7 @@ body .main .clients__section {
 }
 body .main .clients__section .clients-list {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   margin: auto;
   filter: brightness(2);
@@ -376,7 +377,6 @@ body .footer {
   bottom: 0;
   width: 100%;
   height: 80px;
-  position: fixed;
 }
 body .footer .links {
   display: flex;
